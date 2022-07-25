@@ -73,7 +73,7 @@ class TeamViewForm extends React.Component{
     fields.remove(index);
   }
 
-  renderMembers({fields},initialValues){
+  renderMembers({fields}){
     if(fields.length===0) return <div>No players yet, add them now!</div>
     return (
     <div className='ui celled list'>
@@ -84,7 +84,6 @@ class TeamViewForm extends React.Component{
             className='ui button primary'
             onClick={()=>{
               fields.remove(index);
-              console.log(initialValues);
               }}>Remove from Team</button>
           </div>
           <i className='large middle aligned icon futbol outline'/>
@@ -127,7 +126,7 @@ class TeamViewForm extends React.Component{
       <FieldArray 
         name="players" 
         component={
-          this.renderMembers(this.props.initialValues)
+          this.renderMembers
         } />
       <button type="submit" className="ui button primary">Save Team</button>
     </form>
