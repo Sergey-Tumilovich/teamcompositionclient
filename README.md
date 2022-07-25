@@ -39,8 +39,11 @@ I made sure it looks decent, but didn't intend to do it responsive.
 - npm start server and npm run build client
 
 ### In case it is deployed to GitHub pages
-- Follow the link to the client:
+- Follow the link to the deployed client: 
+https://sergey-tumilovich.github.io/teamcompositionclient/
 - check for repos for code review:
+- - server: https://github.com/Sergey-Tumilovich/teamcompositionserver
+- - client: https://github.com/Sergey-Tumilovich/teamcompositionclient
 
 ## Known issues
 - There is an issue which prevents TeamFormView to update properly,
