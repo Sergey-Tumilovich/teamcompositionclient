@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/teamsompositionclient/static/js/main.2a2dd008.chunk.js",
-    "main.js.map": "/teamsompositionclient/static/js/main.2a2dd008.chunk.js.map",
-    "runtime-main.js": "/teamsompositionclient/static/js/runtime-main.bf9d54f0.js",
-    "runtime-main.js.map": "/teamsompositionclient/static/js/runtime-main.bf9d54f0.js.map",
-    "static/js/2.b15ddde8.chunk.js": "/teamsompositionclient/static/js/2.b15ddde8.chunk.js",
-    "static/js/2.b15ddde8.chunk.js.map": "/teamsompositionclient/static/js/2.b15ddde8.chunk.js.map",
-    "index.html": "/teamsompositionclient/index.html",
-    "static/js/2.b15ddde8.chunk.js.LICENSE.txt": "/teamsompositionclient/static/js/2.b15ddde8.chunk.js.LICENSE.txt"
+    "main.js": "/static/js/main.5ee28908.chunk.js",
+    "main.js.map": "/static/js/main.5ee28908.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
+    "static/js/2.b15ddde8.chunk.js": "/static/js/2.b15ddde8.chunk.js",
+    "static/js/2.b15ddde8.chunk.js.map": "/static/js/2.b15ddde8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.b15ddde8.chunk.js.LICENSE.txt": "/static/js/2.b15ddde8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf9d54f0.js",
+    "static/js/runtime-main.a06e69b5.js",
     "static/js/2.b15ddde8.chunk.js",
-    "static/js/main.2a2dd008.chunk.js"
+    "static/js/main.5ee28908.chunk.js"
   ]
 }
