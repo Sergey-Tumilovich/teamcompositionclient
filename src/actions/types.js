@@ -1,0 +1,23 @@
+//CREATE types
+export const CREATE_PLAYER='CREATE_PLAYER';
+export const CREATE_TEAM='CREATE_TEAM';
+
+//FETCH_ALL types
+export const FETCH_PLAYERS='FETCH_PLAYERS';
+export const FETCH_TEAMS='FETCH_TEAMS';
+
+//FETCH_SINGLE types
+export const FETCH_PLAYER='FETCH_PLAYER';
+export const FETCH_TEAM='FETCH_TEAM';
+
+//EDIT types
+export const EDIT_PLAYER='EDIT_PLAYER';
+export const EDIT_TEAM='EDIT_TEAM';
+
+//DELETE types
+export const DELETE_PLAYER='DELETE_PLAYER';
+export const DELETE_TEAM='DELETE_TEAM';
+
+//MOVE types
+export const MOVE_PLAYER_TO_TEAM = 'MOVE_PLAYER_TO_TEAM';
+export const MOVE_PLAYER_FROM_TEAM = 'MOVE_PLAYER_FROM_TEAM';
