@@ -35,11 +35,12 @@ I made sure it looks decent, but didn't intend to do it responsive.
 ## How to launch
 ### In case it has been sent to you as an archive:
 - Open the project folder from the archive;
-- Open terminal for server and client folders
-- npm start server and npm run build client
+- Change the base route of the app in the client/apis/db.js file
+- Open terminals for server and client folders;
+- npm start server and client.
 
 ### In case it is deployed to GitHub pages
-Since GitHub doesn't support client-side routing and I had no skills and time to set up a full-functional backend, you may have to launch the project from the archive.
+Since GitHub doesn't support client-side routing and I had no skills and time to set up a proper full-functional backend, you may have to launch the project from the archive.
 
 check for repos for code review:
 - - server: https://github.com/Sergey-Tumilovich/teamcompositionserver
