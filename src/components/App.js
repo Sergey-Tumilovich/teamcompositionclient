@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 
 import Header from './Header';
 import MainLayout from './MainLayout';
@@ -13,16 +13,15 @@ import history from './history';
 const App = () => {
   return (
     <div className="ui container">
-      <Router history={history}>
+      <HashRouter history={history}>
         <div>
           <Header />
-          {/* PlayerList */}
-          <Route path="/" exact component={MainLayout} />
+          <Route path="/#/" exact component={MainLayout} />
           <Route path="/players/new" exact component={PlayerCreate} />
           <Route path="/players/edit/:id" exact component={PlayerEdit} />
           <Route path="/teams/new" exact component={TeamCreate} />
         </div>
-      </Router>
+      </HashRouter>
     </div>
   );
 };

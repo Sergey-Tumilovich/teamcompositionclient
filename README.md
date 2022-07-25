@@ -39,9 +39,9 @@ I made sure it looks decent, but didn't intend to do it responsive.
 - npm start server and npm run build client
 
 ### In case it is deployed to GitHub pages
-- Follow the link to the deployed client: 
-https://sergey-tumilovich.github.io/teamcompositionclient/
-- check for repos for code review:
+Since GitHub doesn't support client-side routing and I had no skills and time to set up a full-functional backend, you may have to launch the project from the archive.
+
+check for repos for code review:
 - - server: https://github.com/Sergey-Tumilovich/teamcompositionserver
 - - client: https://github.com/Sergey-Tumilovich/teamcompositionclient
 
