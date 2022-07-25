@@ -1,5 +1,8 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:3001'
+  //local
+  // baseURL: 'http://localhost:3001'
+  //deployed
+  baseURL: 'https://my-json-server.typicode.com/Sergey-Tumilovich/teamcompositionserver'
 });
